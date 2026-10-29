@@ -17,8 +17,17 @@ add_action( 'after_setup_theme', 'kwd_minimal_setup' );
 add_filter( 'get_the_archive_title_prefix', '__return_empty_string' );
 
 function kwd_minimal_assets() {
-    wp_enqueue_style( 'kwd-minimal', get_stylesheet_uri(), array(), '1.0.30' );
-    wp_enqueue_script( 'kwd-minimal', get_template_directory_uri() . '/assets/theme.js', array(), '1.0.30', true );
+    // Keep this small stylesheet in the document to avoid a render-blocking round trip.
+    $css_file = get_stylesheet_directory() . '/style.css';
+    $css = is_readable( $css_file ) ? file_get_contents( $css_file ) : false;
+    if ( false !== $css ) {
+        wp_register_style( 'kwd-minimal', false, array(), '1.0.31' );
+        wp_enqueue_style( 'kwd-minimal' );
+        wp_add_inline_style( 'kwd-minimal', $css );
+    } else {
+        wp_enqueue_style( 'kwd-minimal', get_stylesheet_uri(), array(), '1.0.31' );
+    }
+    wp_enqueue_script( 'kwd-minimal', get_template_directory_uri() . '/assets/theme.js', array(), '1.0.31', array( 'in_footer' => true, 'strategy' => 'defer' ) );
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
     }
