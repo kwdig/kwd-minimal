@@ -1,6 +1,6 @@
 # KWD Minimal
 
-白背景とコンパクトな文字組みの、シンプルなFC2ブログ風WordPressテーマです。**Version 1.0.31**。
+白背景とコンパクトな文字組みの、シンプルなFC2ブログ風WordPressテーマです。**Version 1.0.32**。
 
 [紹介・ダウンロード](https://kwdig.com/kwd-minimal) · [デモ](https://kwdig.com/kwd-minimal/demo/) · [インストール用ZIP](https://github.com/kwdig/kwd-minimal/releases/latest/download/kwd-minimal.zip)
 
@@ -69,6 +69,8 @@ WordPress 6.4以上 / PHP 7.4以上。WordPress 7.1.4、PHP 8.3 / 8.5、Chrome�
 GPL-2.0-or-later。詳細は[LICENSE](LICENSE)をご覧ください。デモ記事・画像・サイトの設定・認証情報は配布テーマに含みません。
 
 ## 更新履歴
+
+- **1.0.32**：フッターのKwDigリンクを新しいタブで開くよう変更。
 
 - **1.0.31**：小さなテーマCSSをHTML内にまとめ、テーマJavaScriptをdeferで実行。初期描画時の外部CSS待ちを削減。
 
