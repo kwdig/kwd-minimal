@@ -1,0 +1,15 @@
+body{max-width:640px;font-family:"noto sans japanese","Hiragino Kaku Gothic ProN",Arial,"メイリオ",sans-serif;font-size:16px;line-height:1.75;color:#202122;background:#fff;overflow-wrap:break-word;word-break:normal;line-break:strict}
+h1,h2,h3,h4,h5,h6,.editor-post-title__input{font-family:"noto sans japanese","Hiragino Kaku Gothic ProN",Arial,"メイリオ",sans-serif;color:#101418}
+h1,h2{font-weight:600;line-height:1.5;border-bottom:1px solid #c8ccd1;padding-bottom:6px}h1{font-size:22px;margin:32px 0 14px}h2{font-size:18px;margin:30px 0 14px}h3{font-size:16px;font-weight:700;line-height:1.6;margin:24px 0 10px}h4,h5,h6{font-size:16px;font-weight:700}
+.editor-post-title__input{font-size:24px;line-height:1.5;font-weight:600}
+p{margin:0 0 16px}li{margin-bottom:4px}img{max-width:100%;height:auto}
+blockquote{margin:16px 0;padding:0 16px;border-left:2px solid #ddd}
+a{text-decoration:none;color:#3366cc}a:hover{text-decoration:underline;text-underline-offset:3px}
+
+ul{list-style-type:square}
+
+a:hover{color:#3056a9}
+
+a:visited{color:#6a60b0}a:visited:hover{color:#534fa3}a:visited:active{color:#353262}
+
+em{font-style:normal;font-weight:700}strong{font-weight:700;color:#c4483b}
