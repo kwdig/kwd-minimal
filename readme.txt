@@ -1,5 +1,5 @@
 === KWD Minimal ===
-Version: 1.0.32
+Version: 1.0.33
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -12,7 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 導入
 1. WordPress管理画面の「外観 → テーマ → 新しいテーマを追加 → テーマのアップロード」で
-   kwd-minimal-1.0.32.zip を選択し「今すぐインストール」、続いて「有効化」。
+   kwd-minimal-1.0.33.zip を選択し「今すぐインストール」、続いて「有効化」。
 2. 「設定 → 一般」でサイト名、「設定 → 表示設定」で一覧の表示件数を設定。
    トップを記事一覧にする場合は「最新の投稿」を選択。
 3. 「外観 → メニュー」でメニューを作成し、表示位置「ハンバーガーメニュー」に割り当て。
@@ -48,6 +48,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 カスタムHTMLのscript保存可否はWordPressの権限・マルチサイト設定に従います。
 
 Changelog
+1.0.33 ヘッダー下・フッター上の区切り線を画面の左右端まで拡張。
 1.0.32 フッターのKwDigリンクを新しいタブで開くよう変更。
 1.0.30 GitHub公開用の情報・スクリーンショット・導入説明を更新。
 1.0.29 サイドバーの文字と見出しをFC2参照サイトと同じ11.7pxに変更。一覧リンクは操作しやすい高さを確保。
