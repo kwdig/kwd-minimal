@@ -1,0 +1,15 @@
+/* Copy block component. GPL-2.0-or-later. */
+.kwd-copy-block--chat{margin:1.5em 0;max-width:100%;overflow:hidden;border:1px solid #e1e3e6;border-radius:12px;background:#f7f7f8;color:#202123;box-shadow:none}
+.kwd-copy-block--chat .kwd-copy-toolbar{position:relative;display:flex;flex-wrap:nowrap;justify-content:space-between;gap:12px;padding:8px 12px 8px 16px;background:#ececef;border-bottom:0;min-height:48px}
+.kwd-copy-block--chat .kwd-copy-kind{color:#55565d;font:12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}
+.kwd-copy-block--chat .kwd-copy-button{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;flex-shrink:0;min-height:32px;padding:5px 8px;border:0;border-radius:6px;background:transparent;color:#45464d;box-shadow:none;font:13px/1.5 Arial,Meiryo,sans-serif;white-space:nowrap}
+.kwd-copy-block--chat .kwd-copy-button:hover{background:#dedee3;color:#202123}
+.kwd-copy-block--chat .kwd-copy-button:focus-visible{outline:2px solid #36c;outline-offset:2px}
+.kwd-copy-block--chat .kwd-copy-button:disabled{opacity:.65;cursor:wait}
+.kwd-copy-block--chat .kwd-check-icon{display:none}
+.kwd-copy-block--chat .kwd-copy-button[data-copied="true"] .kwd-copy-icon{display:none}
+.kwd-copy-block--chat .kwd-copy-button[data-copied="true"] .kwd-check-icon{display:block}
+.kwd-copy-block--chat .kwd-copy-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.kwd-copy-block--chat .kwd-copy-text{margin:0;border:0;border-radius:0;padding:18px 20px;background:#f7f7f8;color:#202123;font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Meiryo,monospace;font-size:14px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;max-height:34rem;overflow:auto;tab-size:4}
+.kwd-copy-block--chat .kwd-copy-text:focus-visible{outline:2px solid #36c;outline-offset:-3px}
+@media(max-width:480px){.kwd-copy-block--chat .kwd-copy-toolbar{padding:4px 8px 4px 12px;min-height:48px}.kwd-copy-block--chat .kwd-copy-button{cursor:pointer;min-height:40px}.kwd-copy-block--chat .kwd-copy-text{margin:0;border:0;border-radius:0;padding:16px;font-size:13px;max-height:60vh}}
